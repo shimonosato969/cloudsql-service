@@ -8,10 +8,10 @@
 # Description:       Google Cloud SQL Proxy
 ### END INIT INFO
 
-SCRIPT=/opt/cloudsql/cloud_sql_proxy
+SCRIPT=/usr/local/bin/cloudsql/cloud_sql_proxy
 RUNAS=root
 
-APPHOME=/opt/cloudsql/cloud_sql_proxy
+APPHOME=/usr/local/bin/cloudsql/cloud_sql_proxy
 APPETC=/etc/cloudsql/
 APPCONFIG=$APPETC/cloudsql.conf
 
